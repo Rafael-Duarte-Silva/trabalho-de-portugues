@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    flex-direction: column;
+  
+    overflow-x: hidden;
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    background-color:  black;
+    width: 100%;
+    color: white;
+  }
+  /* Header */
+  
+  nav {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+ 
+      align-items: center;
+    
+      width: 100%;
+      height: 8vh;
+      padding-left: 2vh;
+    
+      font-family: "JetBrains Mono", sans-serif;
+    
+      background-color:white;
+      transition: 0.2s all;
+      z-index: 9999;
+    }
+    
+    nav.scrolled {
+      height: 6vh;
+      background-color: white;
+      opacity: 90%;
+    }
+    nav.scrolled #imagem-login{
+      width: 5vh;
+    }
+    nav h1 {
+      font-size: 3.5vh;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.03vh;
+      color:black;
+    }
+    
+    nav ul {
+      display: flex;
+    
+      width: 100%;
+    
+      list-style: none;
+    }
+    
+    nav li {
+      margin-left: 1%;
+    }
+    
+    nav a {
+      color: black;
+      text-decoration: none;
+    
+      font-size: 2.5vh;
+      padding: 1vh;
+      border-radius: 1vh;
+    
+      cursor: pointer;
+      transition: 0.2s all;
+    }
+    
+    nav ul a:hover {
+      background-color: rgba(0, 0, 0, 0.255);
+    }
+    #SP{
+        margin-left: 28vw;
+    }
+    .s{
+        margin-left: 1.5vw;
+    }
+
+
+
+
+
+    #logo-if{
+        transition: 0.2s all;
+        margin-top: 1vh;
+        width: 9vw;
+      }
+      #imagem-login:hover{
+        transform: scale(1.2);
+        transition-delay: 0.2s;
+        transition-duration: 0.5s;
+      }
+      #login-separacao{
+        width: 14vw;
+
+      }
