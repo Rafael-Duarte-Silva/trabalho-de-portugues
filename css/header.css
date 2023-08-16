@@ -17,7 +17,7 @@ nav{
 }
 
 nav h1 a{
-  font-size: 3.5vh;
+  font-size: 1em;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.03vh;
   color: white;
@@ -39,7 +39,7 @@ nav a{
   color: white;
   text-decoration: none;
     
-  font-size: 2.5vh;
+  font-size: 1.05em;
   padding: 1vh;
   border-radius: 0.6vh;
     
@@ -63,5 +63,5 @@ nav ul a:hover{
   transition: 0.2s all;
   width: 9vw;
 
-  margin-left: 33vw;
+  margin-left: 29vw;
 }
