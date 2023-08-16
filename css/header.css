@@ -6,7 +6,7 @@
 #home{
   position: fixed;
 
-  background-color: whitesmoke;
+  background-color: #222;
   transition: 0.2s all;
   z-index: 9999;
 }
@@ -20,7 +20,7 @@ nav h1 a{
   font-size: 3.5vh;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.03vh;
-  color:black;
+  color: white;
 }
 
 nav ul{
@@ -36,19 +36,19 @@ nav li{
 }
     
 nav a{
-  color: black;
+  color: white;
   text-decoration: none;
     
   font-size: 2.5vh;
   padding: 1vh;
-  border-radius: 1vh;
+  border-radius: 0.6vh;
     
   cursor: pointer;
   transition: 0.2s all;
 }
     
 nav ul a:hover{
-  background-color: rgba(0, 0, 0, 0.255);
+  background-color: #383838
 }
 
 #SP{
@@ -61,8 +61,7 @@ nav ul a:hover{
 
 #logo-if{
   transition: 0.2s all;
-  margin-top: 1vh;
   width: 9vw;
 
-  margin-left: 20vw;
+  margin-left: 33vw;
 }
